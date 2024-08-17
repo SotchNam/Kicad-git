@@ -1,0 +1,3 @@
+*.kicad_pcb diff=kicad_diff
+*.kicad_sch diff=kicad_diff
+*.sch diff=kicad_diff

@@ -1,0 +1,2 @@
+[diff "kicad_diff"]
+	command=/usr/bin/kicad-git-diff.py -v
