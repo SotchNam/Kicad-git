@@ -2,4 +2,5 @@
 
 # This script is used to generate a pdf of the pcb layout
 python  ~/.local/share/kicad/8.0/3rdparty/plugins/com_gitlab_dennevi_Board2Pdf/board2pdf-cli.py *.kicad_pcb 
+kicad-cli sch export pdf circuit\ sim.kicad_sch -o plots/circuit\ sim__SCHEMATICS.pdf 
 git add plots/
